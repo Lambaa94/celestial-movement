@@ -1,17 +1,23 @@
 import React from "react";
 import './App.css';
+import Navtop from "./components/Navbar/Navbar";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-         
-        </p>
-      </header>
-    </div>
+    
+   <body>
+   <Navtop></Navtop>
+
+
+
+   </body>
+    
   );
 }
 
 export default App;
+
+
+
